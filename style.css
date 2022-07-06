@@ -37,20 +37,68 @@ p {
     margin-top: 0px;
 }
 
-form {
-    margin-left: 50px;
-    margin-top: 30px;
+/* -- Fin de main -- */
+
+/* -- Début bouton de recherche */
+
+.localisation {
+    width: 200px;
+    height: 36px;
+    border: none;
+    border-radius: 5px 0 0 5px;
 }
 
-input {
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
-    color: rgb(255, 255, 255);
+.search {
+    width: 300px;
+    height: 34px;
+    position: relative;
+    display: flex;
+    border: none;
+    padding: none;
+    text-align: left;
 }
 
-.submit {
-    font-size: 25px;
+.searchTerm {
+    width: 100px;
+    border: none;
+    border-right: none;
+    padding: none;
+    height: 36px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+
+.searchTerm:focus {
+    color:blueviolet
+
+}
+
+.searchButton {
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #0065FC;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.wrap {
+    width: 250px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+  }
+
+::placeholder {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
     font-family: 'Raleway', sans-serif;
-    background-color: blue;
-    
+    font-weight: 700;
+    padding-left: 10px;
 }
