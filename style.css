@@ -36,3 +36,21 @@ p {
     margin-left: 50px;
     margin-top: 0px;
 }
+
+form {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+input {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.submit {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    background-color: blue;
+    
+}
