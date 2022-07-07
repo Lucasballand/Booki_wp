@@ -1,3 +1,28 @@
+                
+                
+                /* -- Importants -- */
+
+.flex-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+                /* -- Main -- */
+
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -38,6 +63,7 @@ p {
     margin-left: 50px;
     margin-top: 0px;
 }
+
 
                 /* -- Fin de main -- */
 
@@ -113,20 +139,41 @@ p {
 
                 /* -- Fin bouton recherche -- */
 
-
                 /* -- Filtres -- Economique | Familial | Romantique | Animaux autorisés -- */
 
-#Filtres{
-    color: black;
-    font-weight: 700;
-    margin-left: 15px;
-    padding-top: 0px;
+.margefiltres {
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
-.catégories{
-    justify-content: center;
+.filtres {
+    display: flex;
+    align-items: center;
 }
 
-.Economique{
-    background-color: crimson;
+.margefiltresTitre {
+    margin-right: 20px;
 }
+
+.filtreTextIcons {
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreIcon {
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    background-color: #deebff;
+}
+
+.FiltreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+                /* -- Fin des catégories -- */
