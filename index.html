@@ -5,8 +5,9 @@
         <title>Booki | Trouvez votre hébergement pour des vacances de rêve</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">        
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/29d0ed8e4c.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- header de la page test-->
@@ -14,8 +15,8 @@
             <nav>
                 <img src="images/logo/Booki.png" alt="logo">
                 <ul>
-                    <li>Hébergement</li>
-                    <li>Activités</li>
+                    <li><a href="test">Hébergements</a></li>
+                    <li><a href="test">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -26,12 +27,17 @@
     <form>
         <div class="wrap">
             <div class="search">
-                <button type="button" class="localisation"></button>
-                    <input type="text" class="search" placeholder="Marseille, France">
-                    <button type="submit" class="searchButton" placeholder="Rechercher">Rechercher
-                 </button>
+                <button type="button" class="localisation"><i class="fa-solid fa-location-dot fa-lg" style="color: black;"></i></button>
+                <input type="text" class="search" placeholder="Marseille, France">
+                <button type="submit" class="searchButton" placeholder="Rechercher">Rechercher</button>
             </div>
         </div>
       </form>
+        <div class="catégories">
+            <div id="Filtres"><H1>Filtres</H1>
+                <button type="button" class="Economique">
+                </button>
+            </div>
+        </div>
     </body>
 </html>

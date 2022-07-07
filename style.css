@@ -16,6 +16,7 @@ nav img{
 
 }
 nav ul {
+    margin-right: 550px;
     display: flex;
     list-style: none;
 }
@@ -27,6 +28,7 @@ nav li {
 /* Main */
 
 h1 {
+    font-weight: 800;
     margin-top: 40px;
     font-size:  20px;
     margin-left: 50px;
@@ -37,34 +39,39 @@ p {
     margin-top: 0px;
 }
 
-/* -- Fin de main -- */
+                /* -- Fin de main -- */
 
-/* -- Début bouton de recherche */
+                /* -- Début bouton de recherche */
 
 .localisation {
-    width: 200px;
-    height: 36px;
+    width: 180px;
+    height: 47px;
     border: none;
-    border-radius: 5px 0 0 5px;
+    border-radius: 15px 0 0 15px;
+    background-color: rgba(148, 148, 148, 0.164);
 }
 
 .search {
-    width: 300px;
-    height: 34px;
+    width: 333px;
+    height: 43px;
     position: relative;
     display: flex;
-    border: none;
+    fill: white;
     padding: none;
     text-align: left;
+    border-color: rgba(148, 148, 148, 0.164);
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
 }
 
 .searchTerm {
-    width: 100px;
+    width: 333px;
     border: none;
     border-right: none;
     padding: none;
-    height: 36px;
-    border-radius: 10px 0 0 10px;
+    height: 45px;
+    border-radius: 15px 0 0 15px;
     outline: none;
 }
 
@@ -74,21 +81,22 @@ p {
 }
 
 .searchButton {
-    width: 200px;
-    height: 36px;
+    width: 333px;
+    height: 47px;
     border: none;
     background: #0065FC;
     text-align: center;
     color: #ffffff;
     border-radius: 0 10px 10px 0;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 17px;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
 }
 
 .wrap {
-    width: 250px;
+    margin-left: 20px;
+    width: 333px;
     position: relative;
     top: 30px;
     left: 200px;
@@ -101,4 +109,24 @@ p {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     padding-left: 10px;
+}
+
+                /* -- Fin bouton recherche -- */
+
+
+                /* -- Filtres -- Economique | Familial | Romantique | Animaux autorisés -- */
+
+#Filtres{
+    color: black;
+    font-weight: 700;
+    margin-left: 15px;
+    padding-top: 0px;
+}
+
+.catégories{
+    justify-content: center;
+}
+
+.Economique{
+    background-color: crimson;
 }
