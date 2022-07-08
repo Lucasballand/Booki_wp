@@ -18,6 +18,7 @@
                         <li><a href="test">Hébergements</a></li>
                         <li>Activités</a></li>
                     </ul>
+
             </nav>
         </header>
             <main>
@@ -27,28 +28,32 @@
         <div class="wrap">
             <div class="search">
                 <button type="button" class="localisation"><i class="fa-solid fa-location-dot fa-lg" style="color: black;"></i></button>
-                    <input type="text" class="search" placeholder="Marseille, France">
+                    <input type="display: flex;text" class="search" placeholder="Marseille, France">
                 <button type="submit" class="searchButton" placeholder="Rechercher">Rechercher</button>
             </div>
         </div>
-        <div>
-            <div><h2>Filtres</h2></div>
-            <div>
-                <i class="fa-solid fa-money-bill-wave"></i>
-                <div>Economique</div>
+        <div class="flex-centre MargeTitres">
+            <div class="MargeFiltresTitre"><h3>Filtres</h3></div>
+            <div class="flex-centre FiltreTextIcons">
+                <i class="fa-solid fa-money-bill-wave FiltreIcon flex-centre"></i>
+                <div class="FiltreTexte flex-centre Titre">Economique</div>
             </div>
-            <div>
-                <i class="fa-solid fa-child"></i>
-                <div>Familial</div>
+            <div class="flex-centre FiltreTextIcons">
+                <i class="fa-solid fa-child FiltreIcon flex-centre"></i>
+                <div class="FiltreTexte flex-centre Titre">Familial</div>
             </div>
-            <div>
-                <i class="fa-solid fa-heart"></i>
-                <div>Romantique</div>
+            <div class="flex-centre FiltreTextIcons">
+                <i class="fa-solid fa-heart FiltreIcon flex-centre"></i>
+                <div class="FiltreTexte flex-centre Titre">Romantique</div>
             </div>
-            <div>
-                <i class="fa-solid fa-dog"></i>
-                <div>Animaux autorisés</div>
+            <div class="flex-centre FiltreTextIcons">
+                <i class="fa-solid fa-dog FiltreIcon flex-centre"></i>
+                <div class="FiltreTexte flex-centre Titre">Animaux autorisés</div>
             </div>
+        </div>
+        <div class="flex-centre">
+            <i class="fa-solid fa-info fa-xs MargeInformation IconInformation flex-centre"></i>
+            <div class="flex-centre TexteInformation">Plus de 500 logements sont disponibles dans cette ville</div>
         </div>
     </body>
 </html>

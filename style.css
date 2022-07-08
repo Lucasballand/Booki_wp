@@ -4,7 +4,7 @@
 
 .flex-centre {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -141,31 +141,43 @@ p {
 
                 /* -- Filtres -- Economique | Familial | Romantique | Animaux autorisés -- */
 
-.margefiltres {
-    margin-top: 50px;
-    margin-bottom: 40px;
+
+.Titre {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 
-.filtres {
+.MargeTitres {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.Filtres {
     display: flex;
     align-items: center;
 }
 
-.margefiltresTitre {
+.MargeFiltresTitre {
     margin-right: 20px;
 }
 
-.filtreTextIcons {
-    border: 2px solid #f2f2f2;
+.FiltreTextIcons {
+    border: 2px solid rgb(217, 217, 217);
     height: 50px;
     border-radius: 30px;
     margin-right: 20px;
 }
 
-.filtreIcon {
-    border-radius: 25px;
-    width: 52px;
-    height: 52px;
+.FiltreIcon {
+    margin: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 19px 19px 19px;
+    border-radius: 50%;
     color: #0065FC;
     background-color: #deebff;
 }
@@ -176,4 +188,25 @@ p {
     padding-right: 20px;
     border-radius: 0 25px 25px 0;
 }
+
                 /* -- Fin des catégories -- */
+
+
+                /* -- Information -- */
+
+.MargeInformation {
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.IconInformation {
+    padding: 10px 10px 10px 10px;
+    color: #0065FC;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 100%;
+}
+
+.TexteInformation {
+    display: flex;
+    margin-left: 10px;
+}
