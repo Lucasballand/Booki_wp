@@ -14,10 +14,26 @@
     align-items: center;
 }
 
-.flexBetween {
+.FlexBetween {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.FlexColonneCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.ColonneAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
                 /* -- Main -- */
@@ -59,11 +75,9 @@ h1 {
     margin-left: 50px;
 }
 
-p {
+.Texte-gauche{
     margin-left: 50px;
-    margin-top: 0px;
 }
-
 
                 /* -- Fin de main -- */
 
@@ -211,4 +225,162 @@ p {
     margin-left: 10px;
 }
 
-/* -- modifications 09/0/2022 -- */
+                /* -- Filtres / Economique / Familial etc -- */
+
+
+                /* -- Bloc 1 pour les hébergements -- */
+
+.Texte-Gras {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.TextH3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.MarginLeft {
+    margin-left: 5px;
+}
+
+hebergements {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cube-hebergements-details {
+    width: 234px;
+    height: 113px;
+    text-align: left;
+}
+
+.bloc1 {
+    margin-bottom: 40px;
+}
+
+.bloc2 {
+    margin-top: 10px;
+}
+
+.CarreHebergements {
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 0px 15px 3px#83838386;
+    margin-right: 20px;
+}
+
+.FondGris {
+    background-color: #f2f2f2;
+}
+
+.couleur-bleu {
+    color: #0065FC;
+}
+
+.couleur-grise {
+    color: rgb(217, 217, 217);
+}
+
+.back-gris {
+    background-color: #f2f2f2;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.image-hebergements1 {
+    object-fit: cover;
+    width: 230px;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.image-hebergements2 {
+    object-fit: cover;
+    width: 230px;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.image-hebergements3{
+    object-fit: cover;
+    width: 230px;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.image-hebergements4 {
+    object-fit: cover;
+    width: 230px;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.image-hebergements5 {
+    object-fit: cover;
+    width: 230px;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.image-hebergements6 {
+    object-fit: cover;
+    width: 230px;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.taille-hebergements {
+    flex: 2;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.bloc-hebergements {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+                /* -- Fin hébergements -- */
+
+                /* -- Bloc populaires -- */
+
+.bloc-populaires {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Bloc-populaires-size {
+    flex: 1;
+    height: 720px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.Cube-Populaires {
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 3px 0px 15px 3px#83838386;
+}
+
+.Populaires-Cubes-Details {
+    width: auto;
+    padding-right: 5px;
+}
+
+.ImagesHotels1 {
+    object-fit: cover;
+    width: 230px;
+    height: 120px;
+    border-radius: 15px 0 0 15px;
+}
