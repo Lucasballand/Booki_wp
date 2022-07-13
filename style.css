@@ -246,6 +246,22 @@ h1 {
     margin-left: 5px;
 }
 
+.MarginLeft2 {
+    margin-left: 20px;
+}
+
+.MarginRight1 {
+    margin-right: 20px;
+}
+
+.MarginBottom {
+    margin-bottom: 20px;
+}
+
+.MarginTop {
+    margin-top: 40px;
+}
+
 hebergements {
     flex-direction: column;
     align-items: flex-start;
@@ -365,12 +381,15 @@ hebergements {
 
 .Cube-Populaires {
     background-color: white;
-    height: auto;
+    height: 120px;
+    width: 350px;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
     box-shadow: 3px 0px 15px 3px#83838386;
+    margin-bottom: 65px;
+    align-self: center;
 }
 
 .Populaires-Cubes-Details {
@@ -380,7 +399,39 @@ hebergements {
 
 .ImagesHotels1 {
     object-fit: cover;
-    width: 230px;
+    width: 40%;
     height: 120px;
     border-radius: 15px 0 0 15px;
+}
+                /* -- Fin de bloc Populaires -- */
+
+                /* -- Début activités a Marseille -- */
+
+.BlocActivités {
+    width: 100%;
+    height: 700px;
+}
+
+.HightTitresActivites {
+    height: 70px;
+    box-shadow: 3px 0px 15px 3px#83838386;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.ActivitesTitres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.ImagesActivites1 {
+    margin-left: 50px;
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 3px 0px 15px 3px#83838386;
 }
