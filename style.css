@@ -53,6 +53,10 @@
     background-color: #0065FC;
 }
 
+#bloc_page {
+    width: 1400px;
+    margin: auto;
+}
                 /* -- Début de Header / Menu -- */
 
 ul {
