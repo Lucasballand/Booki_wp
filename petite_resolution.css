@@ -1,4 +1,76 @@
-@media screen and (max-width: 1280px)
+@media screen and (max-width: 667px)
 {
-    
+    #bloc_page
+    {
+        width: auto;
+    }
+
+    nav
+    {
+        width: auto;
+        text-align: ;
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+
+    nav a
+    {
+        font-size: 1em;
+    }
+
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+
+    nav img
+    {
+        margin-left: none;
+    }
+
+    section 
+    {
+        flex-direction: column;
+        align-content: left;
+    }
+
+    .MargeTitres
+    {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+
+    .FiltreTextIcons
+    {
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    h1
+    {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .Texte-gauche
+    {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .wrap
+    {
+        margin-left: 0px;
+    }
 }
