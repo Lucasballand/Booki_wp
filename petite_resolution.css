@@ -72,5 +72,28 @@
     .wrap
     {
         margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    #hebergements
+    {
+        flex-direction: column-reverse;
+    }
+
+    .ColonneAround
+    {
+        width: 375px;
+    }
+
+    .Bloc-populaires-size
+    {
+        width: 375px;
+        margin-left: 0px;
+        border-radius: 0px 15px 15px 0px;
+    }
+
+    .Cube-Populaires
+    {
+        margin-top: 0px;
     }
 }
