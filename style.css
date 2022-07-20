@@ -378,7 +378,13 @@ h1{
     color: rgb(217, 217, 217);
 }
 
-.back-gris {
+.back-gris1 {
+    background-color: #f2f2f2;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.back-gris2 {
     background-color: #f2f2f2;
     margin-left: 40px;
     margin-top: 30px;
@@ -565,6 +571,7 @@ h1{
 
 .Footer {
     height: 200px;
+    position: relative;
 }
 
 .marge-footer-bloc1 {
@@ -572,7 +579,7 @@ h1{
 }
 
 .marge-footer-bloc3 {
-    margin-right: 15%
+    margin-right: 15%;
 }
 
 .DIV-lien-footer {

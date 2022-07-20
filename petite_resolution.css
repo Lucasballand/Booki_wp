@@ -3,6 +3,7 @@
     #bloc_page
     {
         width: auto;
+        height: auto;
     }
 
     nav
@@ -89,11 +90,110 @@
     {
         width: 375px;
         margin-left: 0px;
-        border-radius: 0px 15px 15px 0px;
+        border-radius: 0px;
     }
 
     .Cube-Populaires
     {
         margin-top: 0px;
     }
+
+    .taille-hebergements
+    {
+        width: 375;
+        background-color: none;
+    }
+
+    .back-gris1
+    {
+        background-color: white;
+    }
+
+    .bloc-hebergements
+    {
+        margin-left: 10px;
+        padding-left: 0px;
+        display: flex;
+    }
+
+    .FlexColonneCentre
+    {
+        display: flex;
+    }
+
+    .Texte-gauche
+    {
+        margin-left: none;
+    }
+
+    .BlocActivités
+    {
+        margin-left: 0px;
+        flex-direction: column;
+        width: 375px;
+        height: auto;
+    }
+
+    .Footer
+    {
+        width: 375px;
+        height: auto;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .CubeActivites2
+    {
+        margin-left: 0px;
+    }
+
+    .ImagesActivites1
+    {
+        margin-left: 0px;
+    }
+
+    .ImagesActivites2
+    {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .ImagesActivites3
+    {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .ImagesActivites4
+    {
+        margin-top: 20px;
+    }
+
+    .ImagesActivites5
+    {
+        margin-top: 20px;
+    }
+
+    .ImagesActivites6
+    {
+        margin-top: 20px;
+    }
+
+    .DIV-lien-footer
+    {
+        height: auto;
+        padding: ;
+    }
+
+    .None-Decoration
+    {
+        margin-left: 10px;
+        padding: 0px;
+    }
+
+    .marge-footer-bloc1
+    {
+        margin-left: 60px;
+    }
+
 }
