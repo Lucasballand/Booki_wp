@@ -8,8 +8,8 @@
 
     nav
     {
-        width: auto;
         text-align: center;
+        flex-direction: column;
     }
 
     nav ul
@@ -25,6 +25,7 @@
     nav a
     {
         font-size: 1em;
+        flex-direction: initial;
     }
 
     nav a:hover
@@ -34,7 +35,7 @@
 
     nav img
     {
-        margin-left: none;
+        margin-block: none;
     }
 
     section 
@@ -66,8 +67,9 @@
 
     .Texte-gauche
     {
-        text-align: center;
+        text-align: left;
         margin-left: 0px;
+        margin-left: 20px;
     }
 
     .wrap
@@ -79,6 +81,7 @@
     #hebergements
     {
         flex-direction: column-reverse;
+        width: 375px;
     }
 
     .ColonneAround
@@ -127,6 +130,11 @@
         margin-top: 0px;
     }
 
+    .Texte-Gras
+    {
+        margin-left: 10px;
+    }
+
     .BlocActivités
     {
         margin-left: 0px;
@@ -138,12 +146,18 @@
 
     .Footer
     {
-        width: 375px;
+        width: 355px;
         height: auto;
         margin-top: 40px;
         flex-direction: column;
         padding-bottom: 20px;
         padding-left: 20px;
+    }
+
+    .FondGris
+    {
+        width: auto;
+        height: auto;
     }
 
     .CubeActivites2
@@ -310,5 +324,29 @@
         justify-content: flex-start;
         align-items: left;
     }
-    
+
+    .FlexColonneCentreMedia
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .FlexBetweenHebergements
+    {
+        justify-content: left;
+        display: inline;
+    }
+
+    .FlexAroundHebergements
+    {
+        justify-content: none;
+    }
+
+    .ColonneAroundHebergements
+    {
+        display: inline;
+    }
+
 }

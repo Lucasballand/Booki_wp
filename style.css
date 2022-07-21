@@ -11,10 +11,19 @@
 .FlexAround {
     display: flex;
     justify-content: space-around;
-    
+}
+
+.FlexAroundHebergements {
+    display: flex;
+    justify-content: space-around;
 }
 
 .FlexBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FlexBetweenHebergements {
     display: flex;
     justify-content: space-between;
 }
@@ -31,6 +40,12 @@
 }
 
 .ColonneAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ColonneAroundHebergements {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -597,7 +612,3 @@ h1{
 
 
 /* -- Media Queries -- */
-
-.test5{
-    align-items: center;
-}
