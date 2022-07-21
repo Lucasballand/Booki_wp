@@ -9,7 +9,7 @@
     nav
     {
         width: auto;
-        text-align: ;
+        text-align: center;
     }
 
     nav ul
@@ -124,11 +124,13 @@
     .Texte-gauche
     {
         margin-left: none;
+        margin-top: 0px;
     }
 
     .BlocActivités
     {
         margin-left: 0px;
+        margin-right: 0px;
         flex-direction: column;
         width: 375px;
         height: auto;
@@ -140,11 +142,13 @@
         height: auto;
         margin-top: 40px;
         flex-direction: column;
+        padding-bottom: 20px;
+        padding-left: 20px;
     }
 
     .CubeActivites2
     {
-        margin-left: 0px;
+        margin-right: 40px;
     }
 
     .ImagesActivites1
@@ -182,7 +186,7 @@
     .DIV-lien-footer
     {
         height: auto;
-        padding: ;
+        padding: 0px;
     }
 
     .None-Decoration
@@ -193,7 +197,118 @@
 
     .marge-footer-bloc1
     {
-        margin-left: 60px;
+        margin-left: 0px;
     }
 
+    .marge-footer-bloc3
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .ImagesActivites1 {
+        object-fit: cover;
+        width: 335px;
+        height: 134px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .ImagesActivites2 {
+        object-fit: cover;
+        width: 335px;
+        height: 134px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .ImagesActivites3 {
+        object-fit: cover;
+        width: 335px;
+        height: 134px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .ImagesActivites4 {
+        object-fit: cover;
+        width: 335px;
+        height: 134px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .ImagesActivites5 {
+        object-fit: cover;
+        width: 335px;
+        height: 134px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .ImagesActivites6 {
+        object-fit: cover;
+        width: 335px;
+        height: 134px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .ActivitesTitres {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 315px;
+        padding-left: 20px;
+    }
+
+    .image-hebergements1
+    {
+        width: 335px;
+        height: 120px;
+    }
+
+    .image-hebergements2
+    {
+        width: 335px;
+        height: 120px;
+    }
+
+    .image-hebergements3
+    {
+        width: 335px;
+        height: 120px;
+    }
+
+    .image-hebergements4
+    {
+        width: 335px;
+        height: 120px;
+    }
+
+    .image-hebergements5
+    {
+        width: 335px;
+        height: 120px;
+    }
+
+    .image-hebergements6
+    {
+        width: 335px;
+        height: 120px;
+    }
+
+    .CarreHebergements
+    {
+        width: 335px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .cube-hebergements-details
+    {
+        width: auto;
+        height: auto;
+    }
+
+    .FlexColonneCentre
+    {
+        justify-content: flex-start;
+        align-items: left;
+    }
+    
 }

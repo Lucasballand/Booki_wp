@@ -17,7 +17,6 @@
 .FlexBetween {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .FlexColonneCentre {
@@ -328,6 +327,7 @@ h1{
 
 .MarginRight1 {
     margin-right: 20px;
+    margin-top: 30px;
 }
 
 .MarginBottom {
@@ -495,6 +495,7 @@ h1{
     height: 550px;
     margin-left: 40px;
     margin-right: 40px;
+    align-items: center;
 }
 
 .BlocActivites2 {
@@ -596,3 +597,7 @@ h1{
 
 
 /* -- Media Queries -- */
+
+.test5{
+    align-items: center;
+}
