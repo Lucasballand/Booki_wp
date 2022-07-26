@@ -16,6 +16,7 @@
 .FlexAroundHebergements {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .FlexBetween {
@@ -68,7 +69,6 @@
 }
 
 #bloc_page {
-    width: 1400px;
     margin: auto;
 }
                 /* -- Début de Header / Menu -- */
@@ -354,7 +354,7 @@ h1{
 }
 
 #hebergements {
-    width: 1400px;
+    
 }
 
 .cube-hebergements-details {

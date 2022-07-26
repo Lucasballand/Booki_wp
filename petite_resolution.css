@@ -15,6 +15,7 @@
     nav ul
     {
         flex-direction: column;
+        margin-right: 0px;
     }
 
     nav li
@@ -37,6 +38,8 @@
     {
         margin-block: none;
     }
+
+    /* -- Refaire le logo du site pour le centrer dans la page / 23/07/2022-- */ 
 
     section 
     {
