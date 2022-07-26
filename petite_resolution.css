@@ -26,6 +26,7 @@
     {
         font-size: 1em;
         flex-direction: initial;
+        display: inline;
     }
 
     nav a:hover
@@ -72,6 +73,17 @@
         margin-left: 20px;
     }
 
+    .MarginLeft
+    {
+        margin-bottom: 0;
+    }
+
+    .MarginLeft2
+    {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
     .wrap
     {
         margin-left: 0px;
@@ -94,6 +106,12 @@
         width: 375px;
         margin-left: 0px;
         border-radius: 0px;
+    }
+
+    .ImagesHotels1
+    {
+        width: 150px;
+        height: 115px;
     }
 
     .Cube-Populaires
@@ -180,6 +198,7 @@
     {
         margin-left: 0px;
         margin-top: 20px;
+        
     }
 
     .ImagesActivites4
@@ -266,43 +285,43 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 315px;
+        width: 335px;
         padding-left: 20px;
     }
 
     .image-hebergements1
     {
-        width: 335px;
+        width: 315px;
         height: 120px;
     }
 
     .image-hebergements2
     {
-        width: 335px;
+        width: 315px;
         height: 120px;
     }
 
     .image-hebergements3
     {
-        width: 335px;
+        width: 315px;
         height: 120px;
     }
 
     .image-hebergements4
     {
-        width: 335px;
+        width: 315px;
         height: 120px;
     }
 
     .image-hebergements5
     {
-        width: 335px;
+        width: 315px;
         height: 120px;
     }
 
     .image-hebergements6
     {
-        width: 335px;
+        width: 315px;
         height: 120px;
     }
 
@@ -347,6 +366,12 @@
     .ColonneAroundHebergements
     {
         display: inline;
+    }
+
+    .Lien-Footer
+    {
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
 }
