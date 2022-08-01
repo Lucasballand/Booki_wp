@@ -12,6 +12,11 @@
         flex-direction: column;
     }
 
+    .NavMenu2
+    {
+        display: inline-flex;
+    }
+
     nav ul
     {
         flex-direction: column;
@@ -62,10 +67,11 @@
 
     h1
     {
-        text-align: justify;
+        text-align: center;
         margin-left: 0px;
         padding: 10px;
         font-size: 23px;
+        margin-top: 0;
     }
 
     .Texte-gauche
@@ -73,6 +79,11 @@
         text-align: left;
         margin-left: 0px;
         margin-left: 20px;
+    }
+
+    .TexteSecondaire
+    {
+        text-align: center;
     }
 
     .MarginLeft
@@ -88,8 +99,8 @@
 
     .wrap
     {
-        margin-left: 0px;
-        padding-left: 0px;
+        margin-left: 20px;
+        padding-left: 0;
     }
 
     #hebergements
@@ -125,6 +136,11 @@
     {
         width: 375;
         background-color: none;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        
     }
 
     .back-gris1
@@ -134,8 +150,6 @@
 
     .bloc-hebergements
     {
-        margin-left: 10px;
-        padding-left: 0px;
         display: flex;
     }
 
@@ -331,7 +345,7 @@
     {
         width: 335px;
         margin-bottom: 20px;
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .cube-hebergements-details
@@ -368,6 +382,7 @@
     .ColonneAroundHebergements
     {
         display: inline;
+        width: 375px;
     }
 
     .Lien-Footer
@@ -382,7 +397,7 @@
     }
 
     .searchButton {
-        width: 333px;
+        width: auto;
         height: 47px;
         border: none;
         background: #0065FC;
