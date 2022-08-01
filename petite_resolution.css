@@ -12,9 +12,24 @@
         flex-direction: column;
     }
 
+    a
+    {
+        padding: 0;
+        position: none;
+        display: inline;
+        z-index: 1;
+    }
+
+    .TexteInformation
+    {
+        display: inline;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
     .NavMenu2
     {
-        display: inline-flex;
+        display: inline;
     }
 
     nav ul
@@ -22,16 +37,22 @@
         flex-direction: column;
     }
 
+    .ul:after
+    {
+        content: "";
+        position: absolute;
+        opacity: .5;
+    }
+
     nav li
     {
         padding-left: 4px;
     }
 
-    nav a
+    .testinline
     {
-        font-size: 1em;
-        flex-direction: initial;
         display: inline;
+        z-index: 2;
     }
 
     nav a:hover
@@ -84,6 +105,7 @@
     .TexteSecondaire
     {
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .MarginLeft
@@ -93,8 +115,9 @@
 
     .MarginLeft2
     {
-        margin-left: 20px;
+        margin-left: 30px;
         margin-top: 20px;
+        margin-right: 0;
     }
 
     .wrap
@@ -167,6 +190,8 @@
     .Texte-Gras
     {
         margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 0;
     }
 
     .BlocActivités
@@ -346,6 +371,7 @@
         width: 335px;
         margin-bottom: 20px;
         margin-right: 0;
+        margin-left: 20px;
     }
 
     .cube-hebergements-details
@@ -407,6 +433,11 @@
         font-size: 17px;
         font-family: "Raleway", sans-serif;
         font-weight: none;
+    }
+
+    .textcentre
+    {
+        justify-content: center;
     }
 
 }

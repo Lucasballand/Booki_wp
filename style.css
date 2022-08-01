@@ -93,10 +93,7 @@ ul {
 }
 
 ul:after {
-    content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
     opacity: .5;
 }
                   
@@ -139,16 +136,7 @@ a:after {
     transition: all 200ms ease;
     z-index: -1;
 }
-
-li:nth-child(2) a:after {
-    background: #ecc64b;
-}
-                
-a:hover:after {
-    transform: rotateX(0deg) translateZ(0px);
-}
-                
-                
+             
                     /* -- Main -- */
                 
 body {
@@ -322,6 +310,7 @@ p{
     font-weight: bold;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 40px;
 }
                 
 .TextH3 {
