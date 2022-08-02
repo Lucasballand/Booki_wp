@@ -590,3 +590,10 @@ p{
 .Lien-Footer {
     color:black;
 }
+
+@media screen and (min-width: 667px) {
+    .fa-solid
+    {
+        display: none;
+    }
+}

@@ -427,22 +427,18 @@
         display: inline;
     }
 
-    .searchButton {
-        width: auto;
-        height: 47px;
-        border: none;
-        background: #0065FC;
-        color: #ffffff;
-        border-radius: 0 10px 10px 0;
-        cursor: pointer;
-        font-size: 17px;
-        font-family: "Raleway", sans-serif;
-        font-weight: none;
+    .mobileSpan {
+        display: none;
     }
 
     .textcentre
     {
         justify-content: center;
+    }
+    
+    .MargeFiltresTitre
+    {
+        width: 100%;
     }
 
 }
