@@ -120,6 +120,7 @@
         margin-top: 20px;
         margin-right: 0;
         margin-left: 0;
+        text-align: center;
     }
 
     .wrap
@@ -371,6 +372,7 @@
     .FlexAroundHebergements
     {
         justify-content: none;
+        width: 100%;
     }
 
     .ColonneAroundHebergements
