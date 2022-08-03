@@ -176,7 +176,7 @@ p{
                     /* -- Début bouton de recherche */
                 
 .localisation {
-    width: 3%;
+    width: 5%;
     height: 47px;
     border: none;
     border-radius: 15px 0 0 15px;
@@ -489,7 +489,6 @@ p{
     height: auto;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
 }
                 
 .BlocActivites2 {
@@ -566,6 +565,7 @@ p{
 .Footer {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
 
 }
 .Footer a{
