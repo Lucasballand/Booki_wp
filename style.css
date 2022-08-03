@@ -163,7 +163,6 @@ nav ul {
                 
 h1{
     font-weight: 800;
-    margin-top: 40px;
     font-size:  20px;
     margin-bottom: 10px;
 }
@@ -177,7 +176,7 @@ p{
                     /* -- Début bouton de recherche */
                 
 .localisation {
-    width: 180px;
+    width: 3%;
     height: 47px;
     border: none;
     border-radius: 15px 0 0 15px;
@@ -208,7 +207,7 @@ p{
 }
                 
 .searchButton {
-    width: 333px;
+    width: 10%;
     height: 47px;
     border: none;
     background: #0065FC;
@@ -222,7 +221,7 @@ p{
 }
                 
 .wrap {
-    width: 333px;
+    width: auto;
 }
                 
 ::placeholder {
@@ -352,14 +351,13 @@ p{
 }
                 
 .bloc2 {
-    margin-top: 10px;
+    margin-top: 0px;
 }
                 
 .CarreHebergements {
     width: auto;
     height: 210px;
     background-color: white;
-    padding: 10px;
     border-radius: 30px;
     box-shadow: 3px 0px 15px 3px#83838386;
     margin-right: 20px;
@@ -391,42 +389,42 @@ p{
                 
 .image-hebergements1 {
     object-fit: cover;
-    width: 230px;
+    width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
                 
 .image-hebergements2 {
     object-fit: cover;
-    width: 230px;
+    width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
                 
 .image-hebergements3{
     object-fit: cover;
-    width: 230px;
+    width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
                 
 .image-hebergements4 {
     object-fit: cover;
-    width: 230px;
+    width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
                 
 .image-hebergements5 {
     object-fit: cover;
-    width: 230px;
+    width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
                 
 .image-hebergements6 {
     object-fit: cover;
-    width: 230px;
+    width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
@@ -487,7 +485,7 @@ p{
                     /* -- Début activités a Marseille -- */
                 
 .BlocActivités {
-    width: 800px;
+    width: auto;
     height: 550px;
     margin-left: 40px;
     margin-right: 40px;
@@ -534,10 +532,10 @@ p{
                 
 .ImagesActivites3 {
     object-fit: cover;
-    margin-top: 20px;
     width: 240px;
     height: 100px;
     border-radius: 15px 15px 0 0;
+    margin-top: 20px;
 }
                 
 .ImagesActivites4 {
@@ -592,7 +590,7 @@ p{
 }
 
 @media screen and (min-width: 667px) {
-    .fa-solid
+    .fa-magnifying-glass
     {
         display: none;
     }
