@@ -133,6 +133,7 @@
     {
         flex-direction: column-reverse;
         width: 100%;
+        align-content: center;
     }
 
     .ColonneAround
@@ -142,9 +143,10 @@
 
     .Bloc-populaires-size
     {
-        width: 90%;
-        margin-left: 0px;
-        border-radius: 0px;
+        width: auto;
+        margin-left: 0;
+        border-radius: 0;
+        margin-right: 0;
     }
 
     .ImagesHotels1
