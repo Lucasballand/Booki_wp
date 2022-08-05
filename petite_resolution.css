@@ -1,205 +1,173 @@
-@media screen and (max-width: 667px)
-{
-    #bloc_page
-    {
+@media screen and (max-width: 667px) {
+    #bloc_page {
         width: 100%;
         height: auto;
     }
 
-    nav
-    {
+    nav {
         text-align: center;
         flex-direction: column;
     }
 
-    a
-    {
+    a {
         padding: 0;
         position: none;
         display: inline;
         z-index: 1;
     }
 
-    .TexteInformation
-    {
+    .TexteInformation {
         display: inline;
         font-size: 12px;
         margin-left: 5px;
     }
 
-    .NavMenu2
-    {
+    .NavMenu2 {
         display: inline;
         margin-bottom: 10px;
         margin-top: 10px;
     }
 
-    nav ul
-    {
+    nav ul {
         flex-direction: column;
     }
 
-    .ul:after
-    {
+    .ul:after {
         content: "";
         position: absolute;
         opacity: .5;
     }
 
-    nav li
-    {
+    nav li {
         padding-left: 4px;
     }
 
-    .testinline
-    {
+    .testinline {
         display: inline;
         z-index: 2;
     }
 
-    nav a:hover
-    {
+    nav a:hover {
         border-bottom: 0;
     }
 
-    nav img
-    {
+    nav img {
         margin-block: none;
         margin-top: 10px;
     }
 
-    section 
-    {
+    section {
         flex-direction: column;
         align-content: left;
         width: 100%;
     }
 
-    .MargeTitres
-    {
+    .MargeTitres {
         flex-direction: column;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 15px;
     }
 
-    .FiltreTextIcons
-    {
+    .FiltreTextIcons {
         margin-top: 5px;
         margin-left: 0px;
         margin-right: 0px;
     }
 
-    h1
-    {
+    h1 {
         text-align: center;
         padding: 10px;
         margin-top: 0;
     }
 
-    .Texte-gauche
-    {
+    .Texte-gauche {
         text-align: left;
         margin-left: 0px;
         margin-left: 20px;
     }
 
-    .TexteSecondaire
-    {
+    .TexteSecondaire {
         text-align: center;
         margin-bottom: 20px;
     }
 
-    .MarginLeft
-    {
+    .MarginLeft {
         margin-bottom: 0;
     }
 
-    .MarginLeft2
-    {
+    .MarginLeft2 {
         margin-top: 20px;
         margin-right: 0;
         margin-left: 0;
         text-align: center;
     }
 
-    .wrap
-    {
-        margin-left: 20px;
+    .wrap {
+        margin-left: 0px;
         padding-left: 0;
+        text-align: -webkit-center;
     }
 
-    #hebergements
-    {
+    #hebergements {
         flex-direction: column-reverse;
         width: 100%;
+        align-content: center;
     }
 
-    .ColonneAround
-    {
+    .ColonneAround {
         width: 100%;
     }
 
-    .Bloc-populaires-size
-    {
-        width: 90%;
-        margin-left: 0px;
-        border-radius: 0px;
+    .Bloc-populaires-size {
+        width: auto;
+        margin-left: 0;
+        border-radius: 0;
+        margin-right: 0;
     }
 
-    .ImagesHotels1
-    {
+    .ImagesHotels1 {
         width: 100px;
-        height: 115px;
+        height: 120px;
     }
 
-    .Cube-Populaires
-    {
+    .Cube-Populaires {
         margin-top: 0px;
         width: 90%;
     }
 
-    .taille-hebergements
-    {
+    .taille-hebergements {
         width: 375;
         background-color: none;
         margin-left: 0;
         margin-right: 0;
         display: flex;
-        align-items: center;
-        
     }
 
-    .back-gris1
-    {
+    .back-gris1 {
         background-color: white;
     }
 
-    .bloc-hebergements
-    {
+    .bloc-hebergements {
         display: flex;
     }
 
-    .FlexColonneCentre
-    {
+    .FlexColonneCentre {
         display: flex;
     }
 
-    .Texte-gauche
-    {
+    .Texte-gauche {
         margin-left: none;
         margin-top: 0px;
     }
 
-    .Texte-Gras
-    {
+    .Texte-Gras {
         margin-left: 20px;
         margin-top: 10px;
         margin-bottom: 0;
     }
 
-    .BlocActivités
-    {
+    .BlocActivités {
         margin-left: 0px;
         margin-right: 0px;
         flex-direction: column;
@@ -207,8 +175,7 @@
         height: auto;
     }
 
-    .Footer
-    {
+    .Footer {
         width: 100%;
         height: auto;
         margin-top: 40px;
@@ -217,178 +184,163 @@
         padding-left: 20px;
     }
 
-    .FondGris
-    {
+    .FondGris {
         width: auto;
         height: auto;
     }
 
-    .CubeActivites2
-    {
-        margin-right: 40px;
+    .CubeActivites2 {
+        display: flex;
+        margin-top: 20px;
     }
 
-    .DIV-lien-footer
-    {
+    .DIV-lien-footer {
         height: auto;
         padding: 0px;
         margin-bottom: 10px;
         margin-top: 15px;
     }
 
-    .None-Decoration
-    {
+    .None-Decoration {
         margin-left: 10px;
         padding: 0px;
     }
 
-    .marge-footer-bloc1
-    {
+    .marge-footer-bloc1 {
         margin-left: 0px;
     }
 
-    .marge-footer-bloc3
-    {
+    .marge-footer-bloc3 {
         margin-left: 0px;
         margin-right: 0px;
     }
 
     .ImagesActivites1 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
-        margin-top: 10px;
     }
 
     .ImagesActivites2 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
     }
 
     .ImagesActivites3 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
+        margin-top: 0;
     }
 
     .ImagesActivites4 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
     }
 
     .ImagesActivites5 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
     }
 
     .ImagesActivites6 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
+        margin-top: 0;
     }
 
     .ActivitesTitres {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 100%;
+        width: 90%;
         padding-left: 20px;
     }
 
-    .image-hebergements1
-    {
+    .image-hebergements1 {
         width: 100%;
         height: 120px;
-        border-radius: 4px white;
+        border: solid 2px white;
     }
 
-    .image-hebergements2
-    {
+    .image-hebergements2 {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
-    .image-hebergements3
-    {
+    .image-hebergements3 {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
-    .image-hebergements4
-    {
+    .image-hebergements4 {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
-    .image-hebergements5
-    {
+    .image-hebergements5 {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
-    .image-hebergements6
-    {
+    .image-hebergements6 {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
-    .CarreHebergements
-    {
-        width: 100%;
+    .CarreHebergements {
+        width: 90%;
         margin-bottom: 20px;
         margin-right: 0;
-        margin-left: 20px;
+        margin-left: 0;
     }
 
-    .cube-hebergements-details
-    {
+    .cube-hebergements-details {
         width: auto;
         height: auto;
     }
 
-    .FlexColonneCentre
-    {
-        justify-content: flex-start;
-        align-items: left;
+    .FlexColonneCentre {
+        display: flex;
     }
 
-    .FlexColonneCentreMedia
-    {
+    .FlexColonneCentreMedia {
         display: flex;
         flex-direction: column;
         justify-content: left;
         align-items: left;
     }
 
-    .FlexAroundHebergements
-    {
+    .FlexAroundHebergements {
         justify-content: none;
         width: 100%;
     }
 
-    .ColonneAroundHebergements
-    {
-        display: inline;
-        width: 90%;
+    .ColonneAroundHebergements {
+        width: 100%;
     }
 
-    .Lien-Footer
-    {
+    .Lien-Footer {
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
-    .TexteInformation
-    {
+    .TexteInformation {
         display: inline;
     }
 
@@ -396,17 +348,15 @@
         display: none;
     }
 
-    .textcentre
-    {
+    .textcentre {
         justify-content: center;
     }
-    
-    .MargeFiltresTitre
-    {
+
+    .MargeFiltresTitre {
         width: 100%;
     }
 
-    .search {               
+    .search {
         display: flex;
         fill: white;
         text-align: left;
