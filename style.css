@@ -116,6 +116,8 @@ a {
 
 a:hover {
     color: #343e48;
+    border-top: 3px solid;
+    border-color: #0065FC;
 }
 
 a:after {
