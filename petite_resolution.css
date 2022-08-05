@@ -152,7 +152,7 @@
     .ImagesHotels1
     {
         width: 100px;
-        height: 115px;
+        height: 120px;
     }
 
     .Cube-Populaires
@@ -167,9 +167,7 @@
         background-color: none;
         margin-left: 0;
         margin-right: 0;
-        display: flex;
-        align-items: center;
-        
+        display: flex;   
     }
 
     .back-gris1
@@ -227,7 +225,8 @@
 
     .CubeActivites2
     {
-        margin-right: 40px;
+        display: flex;
+        margin-top: 20px;
     }
 
     .DIV-lien-footer
@@ -257,52 +256,53 @@
 
     .ImagesActivites1 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
-        margin-top: 10px;
     }
 
     .ImagesActivites2 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
     }
 
     .ImagesActivites3 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
+        margin-top: 0;
     }
 
     .ImagesActivites4 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
     }
 
     .ImagesActivites5 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
     }
 
     .ImagesActivites6 {
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 134px;
         border-radius: 15px 15px 0 0;
+        margin-top: 0;
     }
 
     .ActivitesTitres {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 100%;
+        width: 90%;
         padding-left: 20px;
     }
 
@@ -310,45 +310,50 @@
     {
         width: 100%;
         height: 120px;
-        border-radius: 4px white;
+        border: solid 2px white;
     }
 
     .image-hebergements2
     {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
     .image-hebergements3
     {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
     .image-hebergements4
     {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
     .image-hebergements5
     {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
     .image-hebergements6
     {
         width: 100%;
         height: 120px;
+        border: solid 2px white;
     }
 
     .CarreHebergements
     {
-        width: 100%;
+        width: 90%;
         margin-bottom: 20px;
         margin-right: 0;
-        margin-left: 20px;
+        margin-left: 0;
     }
 
     .cube-hebergements-details
@@ -359,8 +364,7 @@
 
     .FlexColonneCentre
     {
-        justify-content: flex-start;
-        align-items: left;
+        display: flex;
     }
 
     .FlexColonneCentreMedia
@@ -379,8 +383,7 @@
 
     .ColonneAroundHebergements
     {
-        display: inline;
-        width: 90%;
+        width: 100%;
     }
 
     .Lien-Footer
