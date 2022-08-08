@@ -112,7 +112,7 @@ a {
     border: solid 0.1px white;
 }
 
-a { border: 3px solid transparent; }
+a { border: 1px solid transparent; }
 
 a:hover {border-top-color: #0065FC;}
 
