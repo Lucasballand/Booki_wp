@@ -112,14 +112,9 @@ a {
     border: solid 0.1px white;
 }
 
-a:hover {
-    color: #343e48;
-    border-top: 3px solid;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    border-color: #0065FC;
-}
+a { border: 3px solid transparent; }
+
+a:hover {border-top-color: #0065FC;}
 
 /* -- Main -- */
 
