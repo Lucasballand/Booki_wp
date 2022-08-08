@@ -54,6 +54,7 @@
     nav img {
         margin-block: none;
         margin-top: 10px;
+        margin-left: 0;
     }
 
     section {
@@ -79,6 +80,7 @@
         text-align: center;
         padding: 10px;
         margin-top: 0;
+        margin-left: 0;
     }
 
     .Texte-gauche {
@@ -90,6 +92,7 @@
     .TexteSecondaire {
         text-align: center;
         margin-bottom: 20px;
+        margin-left: 0;
     }
 
     .MarginLeft {
@@ -99,8 +102,11 @@
     .MarginLeft2 {
         margin-top: 20px;
         margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .MarginLeft3 {
         margin-left: 0;
-        text-align: center;
     }
 
     .wrap {
@@ -182,6 +188,7 @@
         flex-direction: column;
         padding-bottom: 20px;
         padding-left: 20px;
+        gap: 40px;
     }
 
     .FondGris {
@@ -365,6 +372,7 @@
         border-left: none;
         border-right: none;
         width: 90%;
+        margin-left: 0;
     }
 
     .searchButton {
@@ -393,6 +401,9 @@
         margin-top: 30px;
         margin-bottom: 20px;
         width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: space-between;
     }
 
     .bloc1 {

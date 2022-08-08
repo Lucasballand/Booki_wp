@@ -109,7 +109,6 @@ a {
     z-index: 2;
     text-shadow: 1px 0px rgba(0, 0, 0, 0.4);
     color: black;
-    letter-spacing: .2em;
     text-decoration: none;
     transition: color 200ms;
 }
@@ -153,6 +152,7 @@ nav {
 
 nav img {
     height: 40px;
+    margin-left: 40px;
 }
 
 nav ul {
@@ -166,10 +166,21 @@ h1 {
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 10px;
+    margin-left: 30px;
 }
 
 p {
     margin-bottom: 10px;
+}
+
+.TexteSecondaire
+{
+    margin-left: 30px;
+}
+
+.wrap
+{
+    margin-left: 40px;
 }
 
 /* -- Fin de main -- */
@@ -208,7 +219,6 @@ p {
 }
 
 .searchButton {
-    width: 10%;
     height: 47px;
     border: none;
     background: #0065FC;
@@ -257,6 +267,7 @@ p {
 .MarginFiltres {
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 .FiltreTextIcons {
@@ -324,6 +335,10 @@ p {
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 40px;
+}
+
+.MarginLeft3 {
+    margin-left: 30px;
 }
 
 .MarginRight1 {
@@ -468,7 +483,7 @@ p {
 .Cube-Populaires {
     background-color: white;
     height: 120px;
-    width: 350px;
+    width: 80%;
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -494,10 +509,15 @@ p {
 
 /* -- Début activités a Marseille -- */
 
+.MargeBottom {
+    margin-bottom: 60px;
+}
+
 .BlocActivités {
     width: auto;
     height: auto;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .BlocActivites2 {
@@ -519,27 +539,27 @@ p {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 240px;
+    width: 275px;
     padding-left: 20px;
 }
 
 .ImagesActivites1 {
     object-fit: cover;
-    width: 240px;
+    width: 275px;
     height: 400px;
     border-radius: 15px 15px 0 0;
 }
 
 .ImagesActivites2 {
     object-fit: cover;
-    width: 240px;
+    width: 275px;
     height: 210px;
     border-radius: 15px 15px 0 0;
 }
 
 .ImagesActivites3 {
     object-fit: cover;
-    width: 240px;
+    width: 275px;
     height: 100px;
     border-radius: 15px 15px 0 0;
     margin-top: 20px;
@@ -547,14 +567,14 @@ p {
 
 .ImagesActivites4 {
     object-fit: cover;
-    width: 240px;
+    width: 275px;
     height: 400px;
     border-radius: 15px 15px 0 0;
 }
 
 .ImagesActivites5 {
     object-fit: cover;
-    width: 240px;
+    width: 275px;
     height: 135px;
     border-radius: 15px 15px 0 0;
 }
@@ -562,7 +582,7 @@ p {
 .ImagesActivites6 {
     object-fit: cover;
     margin-top: 20px;
-    width: 240px;
+    width: 275px;
     height: 175px;
     border-radius: 15px 15px 0 0;
 }
@@ -574,15 +594,13 @@ p {
 .Footer {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
 .Footer a {
     padding: 0;
-}
-
-.marge-footer-bloc3 {
-    margin-right: 15%;
+    margin-top: 20px;
 }
 
 .DIV-lien-footer {
