@@ -107,6 +107,7 @@
 
     .MarginLeft3 {
         margin-left: 0;
+        place-content: center;
     }
 
     .wrap {
