@@ -580,7 +580,7 @@ p {
     padding: 0;
     margin-top: 20px;
     border: none;
-    border-top-color: none;
+    border-top-color: transparent;
 }
 
 .DIV-lien-footer {

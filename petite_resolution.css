@@ -11,7 +11,6 @@
 
     a {
         padding: 0;
-        position: none;
         display: inline;
         z-index: 1;
     }
@@ -52,14 +51,13 @@
     }
 
     nav img {
-        margin-block: none;
+        margin-block: unset;
         margin-top: 10px;
         margin-left: 0;
     }
 
     section {
         flex-direction: column;
-        align-content: left;
         width: 100%;
     }
 
@@ -144,8 +142,7 @@
     }
 
     .taille-hebergements {
-        width: 375;
-        background-color: none;
+        background-color: unset;
         margin-left: 0;
         margin-right: 0;
         display: flex;
@@ -161,11 +158,6 @@
 
     .FlexColonneCentre {
         display: flex;
-    }
-
-    .Texte-gauche {
-        margin-left: none;
-        margin-top: 0px;
     }
 
     .Texte-Gras {
@@ -332,11 +324,9 @@
         display: flex;
         flex-direction: column;
         justify-content: left;
-        align-items: left;
     }
 
     .FlexAroundHebergements {
-        justify-content: none;
         width: 100%;
     }
 
