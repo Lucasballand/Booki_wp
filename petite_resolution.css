@@ -401,5 +401,7 @@
     .bloc1 {
         margin-bottom: 0;
     }
+    
+    a:hover {border-bottom-color: #0065FC;}
 
 }
