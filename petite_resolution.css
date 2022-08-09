@@ -13,6 +13,7 @@
         padding: 0;
         display: inline;
         z-index: 1;
+        border: solid 0.1px white;
     }
 
     .TexteInformation {
@@ -47,7 +48,8 @@
     }
 
     nav a:hover {
-        border-bottom: 0;
+        border-bottom-color: #0065FC;
+        border-top: unset;
     }
 
     nav img {
@@ -401,7 +403,5 @@
     .bloc1 {
         margin-bottom: 0;
     }
-    
-    a:hover {border-bottom-color: #0065FC;}
 
 }

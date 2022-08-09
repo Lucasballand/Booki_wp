@@ -116,6 +116,11 @@ a { border: 1px solid transparent; }
 
 a:hover {border-top-color: #0065FC;}
 
+.CursorPointeur
+{
+    cursor: pointer;
+}
+
 /* -- Main -- */
 
 body {
@@ -335,7 +340,7 @@ p {
 
 .cube-hebergements-details {
     width: 234px;
-    height: 113px;
+    height: auto;
     text-align: left;
 }
 
