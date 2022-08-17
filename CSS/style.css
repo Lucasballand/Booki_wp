@@ -1,0 +1,607 @@
+/* -- Importants -- */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-centre {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-centree {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.FlexAround {
+    display: flex;
+    justify-content: space-around;
+}
+
+.FlexAroundHebergements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.FlexBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FlexBetweenHebergements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.FlexColonneCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.ColonneAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ColonneAroundHebergements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.FLexColonneAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.FlexColonneBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FiltreTextIcons:hover {
+    background-color: #0065FC;
+}
+
+#bloc_page {
+    margin: auto;
+}
+
+/* -- Début de Header / Menu -- */
+
+ul {
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+
+ul:after {
+    position: absolute;
+    opacity: .5;
+}
+
+li {
+    margin: 0 auto;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    display: block;
+    padding: 25px;
+    position: relative;
+    z-index: 2;
+    color: black;
+    text-decoration: none;
+    border: solid 0.1px white;
+}
+
+a { border: 1px solid transparent; }
+
+a:hover {border-top-color: #0065FC;}
+
+.CursorPointeur
+{
+    cursor: pointer;
+}
+
+/* -- Main -- */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav img {
+    height: 40px;
+    margin-left: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+/* Main */
+
+h1 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.TexteSecondaire
+{
+    margin-left: 30px;
+}
+
+.wrap
+{
+    margin-left: 40px;
+}
+
+/* -- Fin de main -- */
+
+/* -- Début bouton de recherche */
+
+.localisation {
+    width: 5%;
+    height: 47px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    background-color: rgba(148, 148, 148, 0.164);
+}
+
+.search {
+    display: flex;
+    fill: white;
+    text-align: left;
+    border-color: rgba(148, 148, 148, 0.164);
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+}
+
+.searchTerm {
+    width: 333px;
+    border: none;
+    border-right: none;
+    height: 45px;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+}
+
+.searchTerm:focus {
+    color: blueviolet
+}
+
+.searchButton {
+    height: 47px;
+    border: none;
+    background: #0065FC;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.wrap {
+    width: auto;
+}
+
+::placeholder {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+/* -- Fin bouton recherche -- */
+
+/* -- Filtres -- Economique | Familial | Romantique | Animaux autorisés -- */
+
+
+.Titre {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.Filtres {
+    display: flex;
+    align-items: center;
+}
+
+.MargeFiltresTitre {
+    margin-right: 20px;
+}
+
+.MarginFiltres {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.FiltreTextIcons {
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.FiltreIcon {
+    margin: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 19px 19px 19px;
+    border-radius: 50%;
+    color: #0065FC;
+    background-color: #deebff;
+}
+
+.FiltreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+/* -- Fin des catégories -- */
+
+
+/* -- Information -- */
+
+
+.IconInformation {
+    padding: 10px 10px 10px 10px;
+    color: #0065FC;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 100%;
+}
+
+.TexteInformation {
+    display: flex;
+    margin-left: 10px;
+}
+
+/* -- Bloc 1 pour les hébergements -- */
+
+.Texte-Gras {
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.TextH3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.MarginLeft {
+    margin-left: 5px;
+}
+
+.MarginLeft2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.MarginLeft3 {
+    margin-left: 30px;
+}
+
+.MarginRight1 {
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.MarginBottom {
+    margin-bottom: 20px;
+}
+
+.MarginTop {
+    margin-top: 40px;
+}
+
+
+.cube-hebergements-details {
+    width: 234px;
+    height: auto;
+    text-align: left;
+}
+
+.bloc1 {
+    margin-bottom: 40px;
+}
+
+.bloc2 {
+    margin-top: 0px;
+}
+
+.CarreHebergements {
+    width: auto;
+    height: 210px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 0px 15px 3px#83838386;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.FondGris {
+    background-color: #f2f2f2;
+}
+
+.couleur-bleu {
+    color: #0065FC;
+}
+
+.couleur-grise {
+    color: rgb(217, 217, 217);
+}
+
+.back-gris1 {
+    background-color: #f2f2f2;
+    margin-top: 30px;
+}
+
+.back-gris2 {
+    background-color: #f2f2f2;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: auto;
+    height: 100%;
+}
+
+.image-hebergements1 {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    border: solid 4px white;
+}
+
+.image-hebergements2 {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    border: solid 4px white;
+}
+
+.image-hebergements3 {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    border: solid 4px white;
+}
+
+.image-hebergements4 {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    border: solid 4px white;
+}
+
+.image-hebergements5 {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    border: solid 4px white;
+}
+
+.image-hebergements6 {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    border: solid 4px white;
+}
+
+.taille-hebergements {
+
+    flex: 2;
+    margin-right: 20px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin-left: 20px;
+}
+
+
+
+/* -- Fin hébergements -- */
+
+/* -- Bloc populaires -- */
+
+.bloc-populaires {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Bloc-populaires-size {
+    flex: 1;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.Cube-Populaires {
+    background-color: white;
+    height: 120px;
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 3px 0px 15px 3px#83838386;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    align-self: center;
+}
+
+.Populaires-Cubes-Details {
+    width: auto;
+}
+
+.ImagesHotels1 {
+    object-fit: cover;
+    width: 130px;
+    height: 120px;
+    border-radius: 15px 0 0 15px;
+    border: solid 4px white;
+}
+
+/* -- Fin de bloc Populaires -- */
+
+/* -- Début activités a Marseille -- */
+
+.MargeBottom {
+    margin-bottom: 60px;
+}
+
+.BlocActivités {
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.BlocActivites2 {
+    width: auto;
+    border-radius: 15px;
+}
+
+.CubeActivites2 {
+    width: 100%;
+}
+
+.HightTitresActivites {
+    height: 70px;
+    box-shadow: 0px 0px 10px 0px#83838386;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.ActivitesTitres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 275px;
+    padding-left: 20px;
+}
+
+.ImagesActivites1 {
+    object-fit: cover;
+    width: 275px;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ImagesActivites2 {
+    object-fit: cover;
+    width: 275px;
+    height: 210px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ImagesActivites3 {
+    object-fit: cover;
+    width: 275px;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    margin-top: 20px;
+}
+
+.ImagesActivites4 {
+    object-fit: cover;
+    width: 275px;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ImagesActivites5 {
+    object-fit: cover;
+    width: 275px;
+    height: 135px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ImagesActivites6 {
+    object-fit: cover;
+    margin-top: 20px;
+    width: 275px;
+    height: 175px;
+    border-radius: 15px 15px 0 0;
+}
+
+/* -- Fin des Activités à Marseille -- */
+
+/* -- Début du footer -- */
+
+.Footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.Footer a {
+    padding: 0;
+    margin-top: 20px;
+    border: none;
+    border-top-color: transparent;
+}
+
+.DIV-lien-footer {
+    height: 30px;
+}
+
+.None-Decoration {
+    text-decoration: none;
+}
+
+.Lien-Footer {
+    color: black;
+}
+
+@media screen and (min-width: 1120px) {
+    .fa-magnifying-glass {
+        display: none;
+    }
+}
