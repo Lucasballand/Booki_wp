@@ -17,11 +17,6 @@
     align-items: center;
 }
 
-.FlexAround {
-    display: flex;
-    justify-content: space-around;
-}
-
 .FlexAroundHebergements {
     display: flex;
     justify-content: space-around;
@@ -46,10 +41,6 @@
     align-items: center;
 }
 
-.text-align-left {
-    text-align: left;
-}
-
 .ColonneAround {
     display: flex;
     flex-direction: column;
@@ -57,12 +48,6 @@
 }
 
 .ColonneAroundHebergements {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.FLexColonneAround {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -144,8 +129,6 @@ nav ul {
     display: flex;
     list-style: none;
 }
-
-/* Main */
 
 h1 {
     font-weight: 800;
