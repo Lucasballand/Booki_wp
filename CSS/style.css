@@ -427,9 +427,8 @@ p {
     border-radius: 20px;
     max-width: 900px;
     margin-left: 20px;
+    height: 100%;
 }
-
-
 
 /* -- Fin hébergements -- */
 
