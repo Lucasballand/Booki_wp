@@ -97,12 +97,15 @@ a {
     border: solid 0.1px white;
 }
 
-a { border: 1px solid transparent; }
+a {
+    border: 1px solid transparent;
+}
 
-a:hover {border-top-color: #0065FC;}
+a:hover {
+    border-top-color: #0065FC;
+}
 
-.CursorPointeur
-{
+.CursorPointeur {
     cursor: pointer;
 }
 
@@ -141,13 +144,11 @@ p {
     margin-bottom: 10px;
 }
 
-.TexteSecondaire
-{
+.TexteSecondaire {
     margin-left: 30px;
 }
 
-.wrap
-{
+.wrap {
     margin-left: 40px;
 }
 
